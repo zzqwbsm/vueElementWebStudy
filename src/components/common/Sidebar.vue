@@ -36,6 +36,11 @@
                         title: '系统首页'
                     },
                     {
+                        icon: 'el-icon-setting',
+                        index: 'linkcard',
+                        title: '机构名称'
+                    },
+                    {
                         icon: 'el-icon-tickets',
                         index: 'table',
                         title: '基础表格'
@@ -114,7 +119,7 @@
         bottom:0;
     }
     .sidebar-el-menu:not(.el-menu--collapse){
-        width: 250px;
+        width: 200px;
     }
     .sidebar > ul {
         height:100%;

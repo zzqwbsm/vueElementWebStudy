@@ -101,7 +101,8 @@
     export default {
         data() {
             return {
-                name: localStorage.getItem('ms_username'),
+                // name: localStorage.getItem('ms_username'),
+                name: 'wbsm',
                 todoList: [
                     {
                         title: '今天要修复100个bug',
@@ -131,7 +132,8 @@
         },
         computed: {
             role() {
-                return this.name === 'admin' ? '超级管理员' : '普通用户';
+                // return this.name === 'wbsm' ? '超级管理员' : '普通用户';
+                return this.name === 'wbsm' ? '被降维打击的三体圆' : '面壁者罗杰';
             }
         }
     }
@@ -199,7 +201,7 @@
         display: flex;
         align-items: center;
         padding-bottom: 20px;
-        border-bottom: 2px solid #ccc;
+        border-bottom: 1px solid #ccc;
         margin-bottom: 20px;
     }
 
